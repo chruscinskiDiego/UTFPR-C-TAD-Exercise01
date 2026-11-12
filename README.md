@@ -1,21 +1,21 @@
-# Exercício de Tipos Abstratos de Dados em C
+# Abstract data types in C
 
-Exercício acadêmico da UTFPR para praticar a separação entre interface e implementação de estruturas relacionadas a pedidos, datas e encontros.
+Academic UTFPR exercise on separating interfaces from implementations for structures related to orders, dates and events.
 
-## Organização
+## Structure
 
-- `pedido.h`: tipos e assinaturas das operações.
-- `pedido.c`: implementação.
-- `main.c`: interação pelo terminal.
+- `pedido.h`: types and operation signatures.
+- `pedido.c`: implementation.
+- `main.c`: terminal interaction.
 
-## Compilar
+## Compile
 
-Com GCC ou compilador C compatível:
+With GCC or a compatible C compiler:
 
 ```bash
 gcc -Wall -Wextra main.c pedido.c -o exercicio
 ```
 
-## Escopo e limitações
+## Scope and limitations
 
-Este é um registro de estudo, não uma aplicação pronta para uso. Há trechos de leitura de entrada e gerenciamento de ponteiros que precisam ser revisados antes da execução. Os arquivos em bin/ e obj/ são artefatos de compilação antigos; o código-fonte deve ser a referência.
+This repository is a learning record, not a ready-to-use application. Input handling and pointer management need review before execution. Files under bin/ and obj/ are old build artifacts; use the source as the reference.
